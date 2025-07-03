@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: -webkit-linear-gradient(0deg, #032b03, #041901, #0a2202);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(0deg, #032b03, #041901, #0a2202);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.head {
+    background-image: url(../img/1539201427120171505-photoaidcom-darken.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    /* padding: 100px 0; */
+    height: 600px;
+
+}
+
+.head__div {
+    display: flex;
+    gap: 400px;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    margin-left: 60px;
+}
+
+.logo:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.guide {
+    display: flex;
+    gap: 400px;
+    margin-top: 80px;
+}
+
+.connection {
+    margin-top: 60px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.line__text {
+    display: flex;
+    gap: 15px;
+}
+
+.line__p {
+    color: rgb(123, 179, 10);
+    font-size: 15px;
+}
+
+.line {
+    height: 1.6px;
+    width: 80px;
+    background: rgb(123, 179, 10);
+    margin-top: 8px;
+}
+
+.trev__h {
+    font-family: "OB";
+    text-align: left;
+    font-size: 40px;
+    width: 500px;
+    padding-top: 15px;
+}
+
+.trev_p {
+    text-align: start;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.sec__1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.number1 {
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -45px;
+}
+
+.trev_h {
+    font-family: "OB";
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.trav__p {
+    color: white;
+    font-size: 15px;
+    width: 300px;
+
+}
+
+.sec__text {
+    padding-top: 70px;
+}
+
+.sec1__img {
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px -1px 27px -2px rgba(142, 210, 28, 0.46);
+    -moz-box-shadow: 1px -1px 27px -2px rgba(142, 210, 28, 0.46);
+    box-shadow: 1px -1px 27px -2px rgba(142, 210, 28, 0.46);
+}
+
+
+.details {
+    color: rgb(123, 179, 10);
+    padding-top: 30px;
+}
+
+.sec__2 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+.footer {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+.travel {
+    padding-top: 50px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+
+}
+
+.foot__h {
+    color: rgb(123, 179, 10);
+    font-family: "OB";
+}
+
+.foot__p {
+    color: white;
+    font-family: "OB";
+    width: 220px;
+}
+
+.link {
+    color: white;
+    padding-top: 20px;
+}
+
+.link:hover {
+    -webkit-box-shadow: 1px -1px 27px -2px rgba(142, 210, 28, 0.46);
+    -moz-box-shadow: 1px -1px 27px -2px rgba(142, 210, 28, 0.46);
+    box-shadow: 1px -1px 27px -2px rgba(142, 210, 28, 0.46);
+}
+
+/* #3C4C3A */
