@@ -1,133 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="./js.js">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iceland Travel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <style>
+    .logo, .logo2 { width: 120px; }
+    .icon { width: 30px; margin-right: 10px; }
+    .sec1__img { width: 100%; border-radius: 10px; }
+    .line { width: 60px; height: 4px; background: #000; margin-right: 10px; }
+    .line__text { display: flex; align-items: center; margin-bottom: 10px; }
+    .details { color: #0d6efd; cursor: pointer; font-weight: 500; }
+    .footer li { list-style: none; }
+  </style>
 </head>
+<body class="bg-light">
 
-<body>
-    <header class="head">
-        <div class="head__div">
-            <img src="./img/edge-removebg-preview.png" alt="" class="logo">
-            <nav class="menu">
-                <li class="">Главная</li>
-                <li class="">О нас</li>
-                <li class="">Туры</li>
-                <li class="">Блог</li>
-                <li class="link_akk">Аккаунт</li>
-                <img src="" alt="" class="icon__akk">
-            </nav>
-        </div>
-        <section class="guide">
-            <div class="connection">
-                <li><img src="./img/icons8-твиттер-48.png" alt="" class="icon"></li>
-                <li><img src="./img/icons8-инстаграм-в-круге-30.png" alt="" class="icon"></li>
-                <li><img src="./img/icons8-вконтакте-50.png" alt="" class="icon"></li>
-            </div>
-            <div class="trev__gud">
-                <div class="line__text">
-                    <div class="line"></div>
-                    <p class="line__p">ТУРЕСТИЧЕСКИЙ ГИД</p>
-                </div>
-                <div class="">
-                    <h2 class="trev__h">Совершите Прекрасное Путешествие В Исландию Вместе С Нами!</h2>
-                    <p class="trev_p">Листайте вниз</p>
-                </div>
-
-            </div>
-        </section>
-    </header>
-
-    <div class="section">
-        <section class="sec__1">
-            <div class="sec__text">
-                <img src="./img/01.png" alt="" class="number1">
-                <div class="line__text">
-                    <div class="line"></div>
-                    <p class="line__p">О НАС</p>
-                </div>
-                <h2 class="trev_h">Мы Сделаем Вашу Поездку Незабываемой</h2>
-                <p class="trav__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid veritatis saepe
-                    excepturi
-                    eligendi delectus, hic quidem distinctio aliquam, incidunt provident nulla facilis amet sed sunt
-                    quaerat
-                    itaque officia dignissimos sit earum inventore maiores at a quis? Eaque earum sapiente nostrum.</p>
-                <p class="details">Подробнее</p>
-            </div>
-            <div class="img">
-                <img src="https://lh3.googleusercontent.com/proxy/8xlYeCvoIdTknmdsSw7An85VjZMQMbRrNEQ8IgNt5itjHGHMmKrhfalUcsO-fsAHHo0sGBUOGD00UkORdFAa"
-                    alt="" class="sec1__img">
-            </div>
-        </section>
-
-        <section class="sec__2">
-            <div class="img">
-                <img src="./img/sec1.jpg" alt="" class="sec1__img">
-            </div>
-            <div class="sec__text">
-                <img src="./img/02.png" alt="" class="number1">
-                <div class="line__text">
-                    <div class="line"></div>
-                    <p class="line__p">ТУРЫ</p>
-                </div>
-                <h2 class="trev_h">Познокомьтесь С Нашими Турами!</h2>
-                <p class="trav__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid veritatis saepe
-                    excepturi
-                    eligendi delectus, hic quidem distinctio aliquam, incidunt provident nulla facilis amet sed sunt
-                    quaerat
-                    itaque officia dignissimos sit earum inventore maiores at a quis? Eaque earum sapiente nostrum.</p>
-                <p class="details">Подробнее</p>
-            </div>
-        </section>
-
-        <section class="sec__1">
-            <div class="sec__text">
-                <img src="./img/03.png" alt="" class="number1">
-                <div class="line__text">
-                    <div class="line"></div>
-                    <p class="line__p">БЛОГ</p>
-                </div>
-                <h2 class="trev_h">Незнаете Куда Поехать Или Как Подготовиться К Поездке?</h2>
-                <p class="trav__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid veritatis saepe
-                    excepturi
-                    eligendi delectus, hic quidem distinctio aliquam, incidunt provident nulla facilis amet sed sunt
-                    quaerat
-                    itaque officia dignissimos sit earum inventore maiores at a quis? Eaque earum sapiente nostrum.</p>
-                <p class="details">Подробнее</p>
-            </div>
-            <div class="img">
-                <img src="./img/trev.jpg" alt="" class="sec1__img">
-            </div>
-        </section>
+  <!-- Header -->
+  <header class="bg-white shadow-sm py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <img src="./img/edge-removebg-preview.png" alt="" class="logo">
+      <nav class="d-flex align-items-center gap-3">
+        <li class="list-unstyled">Главная</li>
+        <li class="list-unstyled">О нас</li>
+        <li class="list-unstyled">Туры</li>
+        <li class="list-unstyled">Блог</li>
+        <li class="list-unstyled fw-bold">Аккаунт</li>
+        <img src="" alt="" class="icon__akk">
+      </nav>
     </div>
 
-    <footer class="footer">
-        <div class="">
-            <img src="./img/edge-removebg-preview.png" alt="" class="logo2">
-            <p class="foot__p">
-                Мир-это книга, и тот, кто не путишествует,читает лишь одну страницу.
-            </p>
+    <section class="bg-primary text-white py-5">
+      <div class="container text-center">
+        <div class="d-flex justify-content-center mb-3">
+          <img src="./img/icons8-твиттер-48.png" class="icon" alt="">
+          <img src="./img/icons8-инстаграм-в-круге-30.png" class="icon" alt="">
+          <img src="./img/icons8-вконтакте-50.png" class="icon" alt="">
         </div>
-        <div class="travel">
-            <h3 class="foot__h">Главы на сайте</h3>
-            <li class="link">Главная</li>
-            <li class="link">О нас</li>
-            <li class="link">Туры</li>
-            <li class="link">Блог</li>
+        <div>
+          <div class="line__text justify-content-center">
+            <div class="line"></div>
+            <p class="mb-0">ТУРЕСТИЧЕСКИЙ ГИД</p>
+          </div>
+          <h2 class="fw-bold">Совершите Прекрасное Путешествие В Исландию Вместе С Нами!</h2>
+          <p>Листайте вниз</p>
         </div>
-        <div class="travel">
-            <h3 class="foot__h">Больше о Ieland Travel</h3>
-            <li class="link">Политика конфиденциальности</li>
-            <li class="link">Контакты</li>
-            <li class="link">Команда</li>
-            <li class="link">Вакансии</li>
-        </div>
-    </footer>
-</body>
+      </div>
+    </section>
+  </header>
 
+  <!-- Main Sections -->
+  <main class="section container py-5">
+    <!-- О НАС -->
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="./img/01.png" alt="" class="number1 mb-3">
+        <div class="line__text">
+          <div class="line"></div>
+          <p class="mb-0">О НАС</p>
+        </div>
+        <h2>Мы Сделаем Вашу Поездку Незабываемой</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+        <p class="details">Подробнее</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://lh3.googleusercontent.com/proxy/8xlYeCvoIdTknmdsSw7An85VjZMQMbRrNEQ8IgNt5itjHGHMmKrhfalUcsO-fsAHHo0sGBUOGD00UkORdFAa" class="sec1__img" alt="">
+      </div>
+    </section>
+
+    <!-- ТУРЫ -->
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="./img/sec1.jpg" class="sec1__img" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="./img/02.png" alt="" class="number1 mb-3">
+        <div class="line__text">
+          <div class="line"></div>
+          <p class="mb-0">ТУРЫ</p>
+        </div>
+        <h2>Познакомьтесь С Нашими Турами!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+        <p class="details">Подробнее</p>
+      </div>
+    </section>
+
+    <!-- БЛОГ -->
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="./img/03.png" alt="" class="number1 mb-3">
+        <div class="line__text">
+          <div class="line"></div>
+          <p class="mb-0">БЛОГ</p>
+        </div>
+        <h2>Не знаете Куда Поехать Или Как Подготовиться?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+        <p class="details">Подробнее</p>
+      </div>
+      <div class="col-md-6">
+        <img src="./img/trev.jpg" class="sec1__img" alt="">
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white py-5">
+    <div class="container d-flex flex-wrap justify-content-between">
+      <div class="mb-4">
+        <img src="./img/edge-removebg-preview.png" alt="" class="logo2 mb-3">
+        <p>Мир — это книга, и тот, кто не путешествует, читает лишь одну страницу.</p>
+      </div>
+      <div>
+        <h5>Главы на сайте</h5>
+        <li>Главная</li>
+        <li>О нас</li>
+        <li>Туры</li>
+        <li>Блог</li>
+      </div>
+      <div>
+        <h5>Больше о Iceland Travel</h5>
+        <li>Политика конфиденциальности</li>
+        <li>Контакты</li>
+        <li>Команда</li>
+        <li>Вакансии</li>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
